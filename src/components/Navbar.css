@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 64px 0;
+}
+
+.navbar__ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+.navbar__ul li {
+    display: inline-block;
+    padding: 0 16px;
+}
+
+.navbar__ul li:last-of-type {
+    padding-right: 0;
+}
+
+.navbar__ul li a {
+    text-decoration: none;
+    color: var(--darkGrayBlue);
+}
+
+.navbar__ul li a:hover {
+    color: var(--red);
+}
