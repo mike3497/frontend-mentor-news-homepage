@@ -20,6 +20,7 @@ html {
 body {
     background-color: var(--offWhite);
     color: var(--veryDarkBlue);
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,4 +56,8 @@ p {
     font-size: 15px;
     margin: 0;
     line-height: 1.5;
+}
+
+.container {
+    padding: 0 16px;
 }

@@ -7,7 +7,7 @@ const ArticlesContainer = () => {
 	return (
 		<div className="row articles-container">
 			{articles.map((article) => (
-				<div key={article.id} className="col-sm-4">
+				<div key={article.id} className="col-xs-12 col-lg-4">
 					<Article article={article} />
 				</div>
 			))}
